@@ -16,6 +16,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('안녕하세요! 미국 자전거 정보 분석 세계에 오신걸 환영합니다!')
+
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
 
@@ -48,11 +49,13 @@ def load_data(city, month, day):
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
-    print('\nCalculating The Most Frequent Times of Travel...\n')
+    print('\n가장 인기있는 여행 시간대 계산 중...\n')
     start_time = time.time()
 
     # display the most common month
+
     # display the most common day of week
+
     # display the most common start hour
 
 
